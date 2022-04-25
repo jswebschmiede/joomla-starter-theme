@@ -1,8 +1,8 @@
-<?php defined( '_JEXEC' ) or die; 
+<?php defined('_JEXEC') or die;
 
 // variables
-$doc = JFactory::getDocument(); 
-$tpath = $this->baseurl.'/templates/'.$this->template;
+$doc   = JFactory::getDocument();
+$tpath = $this->baseurl . '/templates/' . $this->template;
 
 // generator tag
 $this->setGenerator(null);
@@ -20,7 +20,10 @@ $this->setGenerator(null);
         <jdoc:include type="message" />
         <jdoc:include type="component" />
     </div>
-    <?php if ($_GET['print'] == '1') echo '<script type="text/javascript">window.print();</script>'; ?>
+    <?php if ($_GET['print'] == '1') {
+    echo '<script type="text/javascript">window.print();</script>';
+}
+?>
 </body>
 
 </html>

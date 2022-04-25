@@ -70,6 +70,7 @@ yarn.lock
 /README.html
 /build/
 /dist/
+dist
 /assets/dist/css/*.css
 /assets/dist/js/*.**
 mix-manifest.json
