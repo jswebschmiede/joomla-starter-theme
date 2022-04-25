@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.8//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/3.8/template-install.dtd">
+
+<extension version="3.8" type="template" client="site" method="upgrade">
+
+	<name>Bad Direkt</name>
+	<creationDate>2022</creationDate>
+	<author>Smartmedia24</author>
+	<copyright>Copyright © Smartmedia24</copyright>
+	<authorEmail>info@smartmedia24.de</authorEmail>
+	<authorUrl>http://smartmedia24.de</authorUrl>
+	<description><![CDATA[
+		<h1>Bad Direkt</h1>
+<p>Created by <a href="http://smartmedia24.de" target="_blank">smartmedia24.de | http://smartmedia24.de</a>.</p>
+<p><img src="../templates/dasbaddirekt2022/template_preview.png" /></p>
+	]]>	</description>
+
+	<files>
+		<folder>assets</folder>
+		<folder>html</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>logic.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>header-image</position>
+		<position>main-menu</position>
+		<position>mobil-menu</position>
+		<position>breadcrumb</position>
+		<position>content-1</position>
+		<position>content-2</position>
+		<position>content-3</position>
+		<position>content-4</position>
+		<position>content-5</position>
+		<position>content-6</position>
+		<position>map</position>
+		<position>debug</position>
+	</positions>
+
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="telefon" type="text" default="xxxxxxx" label="Telefon" description="Telefon" filter="string" />
+			</fieldset>
+			<fieldset name="website" label="Webseiten Einstellungen">
+				<field name="footer-1" type="editor" buttons="true" label="Footer 1" description="" width="600" filter="safehtml" />
+				<field name="footer-2" type="editor" buttons="true" label="Footer 2" description="" width="600" filter="safehtml" />
+				<field name="footer-3" type="editor" buttons="true" label="Footer 3" description="" width="600" filter="safehtml" />
+				<field name="footer-4" type="editor" buttons="true" label="Footer 4" description="" width="600" filter="safehtml" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
